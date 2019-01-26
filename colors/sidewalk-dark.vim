@@ -29,8 +29,13 @@ hi! link Statement sidewalkStatement
 hi! link Conditional sidewalkStatement
 hi! link Question sidewalkStatement
 
-hi sidewalkError        ctermfg=227 guifg=#ffed3f gui=NONE
+" hi sidewalkError        ctermfg=227 cterm=bold,underline guifg=#ffed3f gui=NONE
+hi sidewalkError        cterm=standout gui=NONE
 hi! link Error sidewalkError
+hi! link ALEError sidewalkError
+
+hi sidewalkWarning        cterm=bold,undercurl gui=NONE
+hi! link ALEWarning sidewalkWarning
 
 hi sidewalkIdentifier   ctermfg=167 guifg=#e76562 gui=NONE
 hi! link Identifier sidewalkIdentifier
