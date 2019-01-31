@@ -41,7 +41,6 @@ hi sidewalkIdentifier   ctermfg=167 guifg=#e76562 gui=NONE
 hi! link Identifier sidewalkIdentifier
 hi! link TypeDef sidewalkIdentifier
 
-
 hi sidewalkOperator     ctermfg=229 guifg=#f4ffaa gui=NONE
 hi! link Operator sidewalkOperator
 hi! link Keyword sidewalkOperator
@@ -61,6 +60,14 @@ hi! link Directory sidewalkInclude
 hi sidewalkMacro      ctermfg=138 guifg=#a67979 gui=NONE
 hi! link PreProc sidewalkMacro
 hi! link Macro sidewalkMacro
+
+" normally no special cases but this one is pretty egregious,
+" swap green and red for diffs
+hi! link DiffAdd sidewalkSpecial
+hi! link DiffAdded sidewalkSpecial
+hi! link DiffNewFile sidewalkSpecial
+hi! link DiffDelete sidewalkIdentifier
+hi! link DiffRemoved sidewalkIdentifier
 
 " #bac264 ctermfg=143
 
