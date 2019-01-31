@@ -15,7 +15,7 @@ let g:colors_name="sidewalk-dark"
 
 hi Normal       ctermfg=188 guifg=#d7e0d7
 
-hi sidewalkConstant      ctermfg=212 guifg=#ec97c8 gui=NONE
+hi sidewalkConstant      ctermfg=213 guifg=#ec97c8 gui=NONE
 hi! link Constant sidewalkConstant
 hi! link Boolean sidewalkConstant
 hi! link String sidewalkConstant
@@ -24,7 +24,7 @@ hi! link Number sidewalkConstant
 hi sidewalkComment      ctermfg=180 guifg=#d8b098 gui=NONE
 hi! link Comment sidewalkComment
 
-hi sidewalkStatement    ctermfg=98  guifg=#8b5fd2 gui=NONE
+hi sidewalkStatement    ctermfg=105  guifg=#8b5fd2 gui=NONE
 hi! link Statement sidewalkStatement
 hi! link Conditional sidewalkStatement
 hi! link Question sidewalkStatement
@@ -40,6 +40,7 @@ hi! link ALEWarning sidewalkWarning
 hi sidewalkIdentifier   ctermfg=167 guifg=#e76562 gui=NONE
 hi! link Identifier sidewalkIdentifier
 hi! link TypeDef sidewalkIdentifier
+
 
 hi sidewalkOperator     ctermfg=229 guifg=#f4ffaa gui=NONE
 hi! link Operator sidewalkOperator
