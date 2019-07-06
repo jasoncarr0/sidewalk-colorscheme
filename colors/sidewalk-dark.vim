@@ -46,7 +46,7 @@ hi! link Operator sidewalkOperator
 hi! link Keyword sidewalkOperator
 hi! link Delimiter sidewalkOperator
 
-hi sidewalkSpecial     ctermfg=121 guifg=#87ffd7 gui=NONE
+hi sidewalkSpecial     ctermfg=157 guifg=#afffd7 gui=NONE
 hi! link Title sidewalkSpecial
 hi! link Special sidewalkSpecial
 hi! link Type sidewalkSpecial
